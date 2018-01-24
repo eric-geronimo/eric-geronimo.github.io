@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Fear Setter</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>	
+	  <section class="container">
+		<div class="intro">
+			
+			<h1>FEAR <br> SETTER</h1>
+			
+			<p>Every goal carries with it a level of fear we have not yet defined. Fears will rob us of our time. The time to learn, love and grow. Tim Ferriss is a bestselling author who has inspired millions with his TED talk.</p> 
+			<p>Fear Setter is based on a task Ferriss uses to understand one of life’s most important compass.</p>
+        	
+        	<a href="index.html#watch"><button type="button">Watch</button></a>
+        	<a href="index.html#set"><button type="button">Set</button></a>
+
+		</div>  
+	  </section>
+	</header>
+
+	<section class="container" id="watch">
+		<div class="row">
+			<div class="col-md-7 padding-fix">	
+				<div class="videoWrapper">
+					<iframe src="https://embed.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col-md-5 padding-fix">
+				<h3>ABOUT TIM</h3>
+				<ul>
+					<li>2 x New York Times Bestselling Author</li>
+					<li>Angel Investor and Advisor</li>
+					<li>Self-Proclaimed "Human Guinea Pig"</li>
+				</ul>
+			</div>
+		</div><!--row-->
+	</section>
+	
+	<section id="set">
+		
+		<form>
+		
+		
+		</form>
+	</section>
+
+	<section>
+	
+	<div id="myProgress">
+  			<div id="myBar"></div>
+	</div>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+        	<div class="form container-fluid q1">
+			
+          		<h2>WHAT IF I...?</h2>
+
+					<input required maxlength="100"  size="40" class="input">
+					<br>
+					<input value="submit" class="submit1" name="" id="formButton">
+        	</div>
+        </div>
+        <div class="item">
+        	<div class="form container-fluid q2">
+
+				<div class="col-md-5 col-md-offset-1 padding-fix">
+					<h1 class="fearName"></h1>
+					<ol class="ol_current"></ol>
+				</div>
+				
+          		<div class="col-md-5 padding-fix">
+          			<h2>The worst case scenarios include: </h2>
+          			<input required maxlength="100" size="40"id="input_listName" />
+					<br>
+					<button id="btn_createList">ADD</button>
+					<input value="submit" class="submit2" name="" id="formButton">
+        		</div>
+
+        	</div>
+        </div> <!-- ITEM DIV -->
+        <div class="item">
+        	<div class="form container-fluid q3">
+
+				<div class="col-md-5 col-md-offset-1 padding-fix">
+					<h1 class="fearName"></h1>
+					<ol class="ol_current"></ol>
+				</div>
+				
+          		<div class="col-md-5 padding-fix">
+          			<h2>What could I do to prevent or decrease the likelihood of each scenario (even a little bit)</h2>
+          			<input required maxlength="100" size="40"id="input_listName" />
+					<br>
+					<button id="btn_createList">ADD</button>
+					<input value="submit" class="submit3" name="" id="formButton">
+        		</div>
+
+        	</div>
+        </div> <!-- ITEM DIV -->
+        <div class="item">
+          	<div class="form container-fluid">
+		
+          	<h2>What could I do to prevent or decrease the likelihood of each scenario (even a little bit)</h2>
+				<input required maxlength="100" size="40"id="input_listName" />
+				<br>
+				<button id="btn_createList">ADD</button>
+				<input value="submit" class="submit2" name="" id="formButton">
+        	</div>
+        </div>
+
+
+        <div class="item">
+          	<div class="form container-fluid">
+		
+          	<h2>What could I do to repair the damage of each scenario? Who could I ask for help?</h2>
+
+					<input required maxlength="100" size="40">
+					<br>
+					<input value="submit" class="submit4" name="" id="formButton">
+        	</div>
+        </div>
+        <div class="item">
+          	<div class="form container-fluid">
+		
+          	<h2>What might be the benefits of an attempt or partial success of (fearValue)</h2>
+
+					<input required maxlength="100" size="40">
+					<br>
+					<input value="submit" class="submit5" name="" id="formButton">
+        	</div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+    </section>
+	
+	<footer>
+		<ul class="container">
+			<li>About</li>
+			<li>Resources</li>
+			
+			<li id="followUs">Follow Us</li>
+
+			<li>Instagram</li>
+			<li>Facebook</li>
+		</ul>
+	</footer>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="js/custom.js"></script> <!-- removed type=text/js -->
+</body>
+</html>

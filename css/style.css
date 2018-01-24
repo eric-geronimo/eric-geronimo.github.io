@@ -1,0 +1,154 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Gotham SSm,sans-serif;
+	font-weight: 200;
+    letter-spacing: .081em;
+}
+
+header {
+	background: url(../images/tim-ferriss.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+	padding: 50px 0 100px;
+	/*border: 1px solid red;*/
+}
+
+.intro {
+	width: 280px;
+	float: left;
+	/*border: 1px solid red;*/
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.padding-fix {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.form {
+	text-align: center;
+	padding: 160px 0 200px;
+	min-width: 250px;
+	background-color: lightgray;
+	/*border: 1px solid red;*/
+}
+
+h2 {
+	font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Gotham SSm,sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .091em;
+    line-height: 1em;
+    border-radius: 0;
+    padding: 1.8em 3.6em;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border: 1.1px solid #000;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+#formButton {
+	cursor: pointer;
+    display: inline-block;
+    font-family: Gotham SSm,sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .091em;
+    line-height: 1em;
+    border-radius: 0;
+    padding: 1.8em 3.6em;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border: 1.1px solid #000;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 130px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	height: 200px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0; /*feedback edit 14/1*/
+	overflow: hidden; /*feedback edit 14/1*/
+}
+
+#followUs {
+	margin: 10px 0;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+#myBar {
+    width: 0%;
+    height: 10px;
+    background-color: blue;
+}
+
+.carousel-control , .carousel-indicators {
+	display: none;
+}
+
+.scenario {
+	padding-left: 200px;
+	text-align: center;
+	border: 1px red solid;
+}
+
+.ol_current input{
+	background: transparent;
+    border: 0;
+}
+
+.ol_current {
+	width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.ol_current li {
+	text-align: left;
+	border-bottom: solid 1px #999;
+}
