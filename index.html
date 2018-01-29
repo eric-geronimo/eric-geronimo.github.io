@@ -46,20 +46,13 @@
 		</div><!--row-->
 	</section>
 	
-	<section id="set">
-		
-		<form>
-		
-		
-		</form>
-	</section>
 
 	<section>
 	
 	<div id="myProgress">
   			<div id="myBar"></div>
 	</div>
-
+<form id="fearForm">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -83,66 +76,55 @@
         </div>
         <div class="item">
         	<div class="form container-fluid q2">
-
-				<div class="col-md-5 col-md-offset-1 padding-fix">
+        	  <div class="row">
+				<div class="col-md-5 col-md-offset-3 padding-fix">
 					<h1 class="fearName"></h1>
-					<ol class="ol_current"></ol>
-				</div>
-				
-          		<div class="col-md-5 padding-fix">
-          			<h2>The worst case scenarios include: </h2>
+					<h2>The worst case scenarios include: </h2>
           			<input required maxlength="100" size="40"id="input_listName" />
-					<br>
-					<button id="btn_createList">ADD</button>
+					<button id="btn_createList">+</button>
+					
+					<div class="ol-wrapper">
+						<ol class="ol_current ol_current2"></ol>
+					</div>
 					<input value="submit" class="submit2" name="" id="formButton">
-        		</div>
-
+				</div>
+        	  </div> <!-- ROW -->
         	</div>
         </div> <!-- ITEM DIV -->
         <div class="item">
         	<div class="form container-fluid q3">
+        	  <div class="row">
+          		<div class="col-md-5 col-md-offset-3 padding-fix">
+          			<h2>What could I do to <b><i>prevent</i></b> or decrease the likelihood of each scenario (even a little bit)</h2>
+          			
+          			<h1 class="fearName"></h1>
+					<ol class="ol_current ol_current3"></ol>
 
-				<div class="col-md-5 col-md-offset-1 padding-fix">
-					<h1 class="fearName"></h1>
-					<ol class="ol_current"></ol>
-				</div>
-				
-          		<div class="col-md-5 padding-fix">
-          			<h2>What could I do to prevent or decrease the likelihood of each scenario (even a little bit)</h2>
-          			<input required maxlength="100" size="40"id="input_listName" />
-					<br>
-					<button id="btn_createList">ADD</button>
 					<input value="submit" class="submit3" name="" id="formButton">
         		</div>
-
+        	  </div> <!-- ROW -->
         	</div>
         </div> <!-- ITEM DIV -->
-        <div class="item">
-          	<div class="form container-fluid">
-		
-          	<h2>What could I do to prevent or decrease the likelihood of each scenario (even a little bit)</h2>
-				<input required maxlength="100" size="40"id="input_listName" />
-				<br>
-				<button id="btn_createList">ADD</button>
-				<input value="submit" class="submit2" name="" id="formButton">
-        	</div>
-        </div>
-
 
         <div class="item">
-          	<div class="form container-fluid">
-		
-          	<h2>What could I do to repair the damage of each scenario? Who could I ask for help?</h2>
+        	<div class="form container-fluid q4">
+        	  <div class="row">
+          		<div class="col-md-5 col-md-offset-3 padding-fix">
+          			<h2>What could I do to <b><i>repair</i></b> the damage of each scenario? Who could I ask for help?</h2>
+          			
+          			<h1 class="fearName"></h1>
+					<ol class="ol_current ol_current4"></ol>
 
-					<input required maxlength="100" size="40">
-					<br>
 					<input value="submit" class="submit4" name="" id="formButton">
+        		</div>
+        	  </div> <!-- ROW -->
         	</div>
-        </div>
+        </div> <!-- ITEM DIV -->
+        
         <div class="item">
-          	<div class="form container-fluid">
+          	<div class="form container-fluid q5">
 		
-          	<h2>What might be the benefits of an attempt or partial success of (fearValue)</h2>
+          			<h2>What might be the benefits of an attempt or partial success of </h2>
 
 					<input required maxlength="100" size="40">
 					<br>
@@ -159,6 +141,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
+  </form>
     </section>
 	
 	<footer>

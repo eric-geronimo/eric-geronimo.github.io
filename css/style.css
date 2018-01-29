@@ -34,8 +34,9 @@ h1 {
 
 .form {
 	text-align: center;
-	padding: 160px 0 200px;
+	/*padding: 160px 0 200px;*/
 	min-width: 250px;
+	min-height: 500px;
 	background-color: lightgray;
 	/*border: 1px solid red;*/
 }
@@ -134,21 +135,39 @@ footer ul {
 .scenario {
 	padding-left: 200px;
 	text-align: center;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 }
 
 .ol_current input{
 	background: transparent;
     border: 0;
+    width: 390px;
+    /*border: 1px solid red;*/
+    
 }
 
 .ol_current {
-	width: 200px;
+	width: 400px;
     margin: 0 auto;
-    padding: 10px;
+    /*padding: 10px;*/
+    /*border: 1px solid red;*/
 }
 
 .ol_current li {
 	text-align: left;
+	padding: 0px 0;
 	border-bottom: solid 1px #999;
+}
+
+.ol-wrapper {
+	max-height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*border: 1px solid red;*/
+}
+
+#btn_createList {
+	padding: 2px;
+	width: 40px;
+	height: 30px;
 }
